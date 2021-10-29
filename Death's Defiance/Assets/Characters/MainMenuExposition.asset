@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e0363e42555a7942b159303cd37aaa5, type: 3}
+  m_Name: MainMenuExposition
+  m_EditorClassIdentifier: 
+  m_characterPortrait: {fileID: 0}
+  m_characterSentences:
+  - You are the Grim Reaper.
+  - Your job is to reap the souls of those who have died and show them to the afterlife.
+  - But... you also have a conscience, do you not?
+  - You could perhaps choose to spare the souls of those who have yet more to give...
+  - ... who have important unfinished business on the mortal plane...
+  - ... or simply who you feel would make the most use out of the extra time you
+    give them.
+  - However, sparing souls is not without cost.
+  - As the Grim Reaper, your existence cannot persist without perfoming the task
+    for which you were created.
+  - Reap and spare souls as you choose, but keep an eye on your DEATH POINTS...
+  - Good luck.
+  m_characterName: 
+  m_soulReapedResponse: 
+  m_soulSparedResponse: 
