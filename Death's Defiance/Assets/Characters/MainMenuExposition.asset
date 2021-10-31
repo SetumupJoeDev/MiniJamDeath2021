@@ -15,15 +15,15 @@ MonoBehaviour:
   m_characterPortrait: {fileID: 0}
   m_characterSentences:
   - You are the Grim Reaper.
-  - Your job is to reap the souls of those who have died and show them to the afterlife.
+  - Your job is to reap the souls of those who have died...
+  - ...and guide them to the afterlife.
   - But... you also have a conscience, do you not?
-  - You could perhaps choose to spare the souls of those who have yet more to give...
+  - 'You could perhaps choose to spare the souls... '
+  - ...of those who have yet more to give...
   - ... who have important unfinished business on the mortal plane...
-  - ... or simply who you feel would make the most use out of the extra time you
-    give them.
+  - ... or simply those you deem worthy.
   - However, sparing souls is not without cost.
-  - As the Grim Reaper, your existence cannot persist without perfoming the task
-    for which you were created.
+  - Their survival costs you your very essence as the Grim Reaper.
   - Reap and spare souls as you choose, but keep an eye on your DEATH POINTS...
   - Good luck.
   m_characterName: 

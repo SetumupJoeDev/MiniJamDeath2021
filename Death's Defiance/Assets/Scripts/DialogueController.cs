@@ -18,8 +18,10 @@ public class DialogueController : MonoBehaviour
 
     private float m_typeSpeed;
 
+    public IEnumerator typeText;
+
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
 
         m_dialogueQueue = new Queue<string>();
@@ -64,16 +66,28 @@ public class DialogueController : MonoBehaviour
     {
         if(m_dialogueQueue.Count == 0)
         {
-            //End dialogue here
-            Debug.Log("Dialogue over!");
+            DialogueEnded();
             return;
         }
         else
         {
+
+            if (typeText != null)
+            {
+                StopCoroutine(typeText);
+            }
+
             string sentence = m_dialogueQueue.Dequeue();
 
-            StartCoroutine(TypeText(sentence));
+            typeText = TypeText(sentence);
+
+            StartCoroutine(typeText);
         }
+    }
+
+    public void DialogueEnded()
+    {
+        GameManager.current.DialogueEnded();
     }
 
     public IEnumerator TypeText( string textToType )
