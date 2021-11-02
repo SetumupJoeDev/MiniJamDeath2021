@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e0363e42555a7942b159303cd37aaa5, type: 3}
+  m_Name: Mary
+  m_EditorClassIdentifier: 
+  m_characterPortrait: {fileID: 21300000, guid: 3a3d3a84025dcca46a3ae9cef000bb26, type: 3}
+  m_characterSentences:
+  - Ahhh, it's you. I knew I'd be seeing you soon, after I lost my husband I thought
+    "It won't be long before it's my turn now."
+  - What did I achieve? Not a great deal, I suppose. I worked to live as opposed
+    to the inverse, and my husband and I used what little money we had to travel
+    the world. Never settled down to stay in one place or have children. Lived life
+    to the fullest, rather selfish I suppose.
+  - I've had a good, long life. I'm ready to rest now, dear, thank you.
+  - I'm afraid I have nothing left to tell you.
+  m_characterName: Mary
+  m_soulReapedResponse: I'm finally at peace... thank you.
+  m_soulSparedResponse: Y-you're letting me go back? But I wanted to see my husband...
+  m_wasSpared: 0
+  m_lifeEvents:
+  - Mary lived out the remainder of her days alone, with no family to comfort her,
+    hoping that she would see her husband again soon...

@@ -24,4 +24,8 @@ public class CharacterContainer : ScriptableObject
     [Tooltip("The character's response to having their soul spared.")]
     public string m_soulSparedResponse;
 
+    public bool m_wasSpared;
+
+    public string[] m_lifeEvents;
+
 }

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e0363e42555a7942b159303cd37aaa5, type: 3}
+  m_Name: Kirk
+  m_EditorClassIdentifier: 
+  m_characterPortrait: {fileID: 21300000, guid: a94e1ba37c86f4242a39c2ffb6e3caac, type: 3}
+  m_characterSentences:
+  - Woah, wh-who are you!? Am I... dead? Dang it, I knew I shouldn't have taken so
+    much before I got back on the bike.
+  - I don't suppose you'd send me back, would ya? I'm sure my buddies are worryin'
+    about me down there, probably got myself all over some poor S.O.B's windshield.
+  - What would I do with the gift of a second chance? Er, I hadn't thought about
+    it like that. Ought to give that some real thought I suppose. Not something I
+    should rush into... unless there's a time limit here?
+  - So uh... you sending me back down there or what?
+  m_characterName: Kirk
+  m_soulReapedResponse: Ah I see, my time has finally come. Well, time to see what
+    the beer is like in the afterlife I guess.
+  m_soulSparedResponse: You're sending me back down to Earth? Hell yeah! Good call
+    my man, I'll make sure not to waste it!
+  m_wasSpared: 0
+  m_lifeEvents:
+  - After waking up mangled on the side of the road, Kirk put an end to his vices
+    and convinced his biker buddies to be a force for good and formed a travelling
+    food bank.
